@@ -1,5 +1,5 @@
 <?php
-$address_json = file_get_contents(__DIR__."/adress.json");
+$address_json = file_get_contents(__DIR__."/address.json");
 $address_array = json_decode($address_json, true);
 
 ?>
