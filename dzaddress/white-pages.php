@@ -7,27 +7,30 @@ $address_array = json_decode($address_json, true);
 <html>
     <head>
         <title>
-            My Crazy White Pages
+            Мой телефонный справочник
         </title>
     </head>
     <body>
         <h1>
-           Welcome to My Crazy White Pages!
+           Мой телефонный справочник
         </h1>
+        <h2>
+            Добро пожаловать! Снова.
+        </h2>
         <table>
             <thead>
                 <tr>
                     <td>
-                        First name
+                        Фамилия
                     </td>
                     <td>
-                        Last name
+                        Имя
                     </td>
                     <td>
-                        Full address with postal code
+                        Адрес
                     </td>
                     <td>
-                        Mobile phone number
+                        Мобильный телефон
                     </td>
                 </tr>
             </thead>
