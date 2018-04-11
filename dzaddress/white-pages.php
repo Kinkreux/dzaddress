@@ -9,6 +9,15 @@ $address_array = json_decode($address_json, true);
         <title>
             Мой телефонный справочник
         </title>
+        <style>
+            thead {
+                font-weight: bold;
+            }
+
+            td {
+                padding: 5px 5px;
+            }
+        </style>
     </head>
     <body>
         <h1>
@@ -25,6 +34,9 @@ $address_array = json_decode($address_json, true);
                     </td>
                     <td>
                         Имя
+                    </td>
+                    <td>
+                        Отчество
                     </td>
                     <td>
                         Адрес
